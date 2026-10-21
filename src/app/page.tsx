@@ -2,6 +2,7 @@ import { Navbar } from "@/components/layout/Navbar";
 import { MotionController } from "@/components/ui/MotionController";
 import { SectionTitle } from "@/components/ui/SectionTitle";
 import { Tags } from "@/components/ui/Tags";
+import { ContactForm } from "@/components/contact/ContactForm";
 import { experiences } from "@/data/experience";
 import { projects } from "@/data/projects";
 import { skillGroups } from "@/data/skills";
@@ -9,6 +10,8 @@ import { skillGroups } from "@/data/skills";
 const linkedin = "https://www.linkedin.com/in/zaman1913";
 const resume = "/resume/Shahid_Zaman_FullStackDeveloper.pdf";
 const whatsapp = "https://wa.me/923027434561";
+const email = "mahar.shahid.zaman1913@gmail.com";
+const phone = "+92 302 7434561";
 
 export default function Home() {
   const featured = projects.filter((project) => project.featured);
@@ -239,6 +242,21 @@ export default function Home() {
           <p>
             Have a role, collaboration, or project in mind? Let&apos;s connect.
           </p>
+          <div className="contact-details" aria-label="Contact details">
+            <a className="contact-detail" href={`mailto:${email}`}>
+              <span className="contact-detail-label">Email</span>
+              <span>{email}</span>
+            </a>
+            <a className="contact-detail" href={`tel:${phone.replace(/\s/g, "")}`}>
+              <span className="contact-detail-label">Phone</span>
+              <span>{phone}</span>
+            </a>
+            <div className="contact-detail">
+              <span className="contact-detail-label">Location</span>
+              <span>Multan, Punjab, Pakistan</span>
+            </div>
+          </div>
+          <ContactForm />
           <div className="contact-actions">
             <a
               className="button primary"
@@ -265,10 +283,7 @@ export default function Home() {
               Download Resume
             </a>
           </div>
-          <p className="contact-note">
-            This is a frontend-only portfolio. Contact details from the resume
-            can be added here.
-          </p>
+          <p className="contact-note">Available for roles, collaborations, and project inquiries.</p>
         </section>
       </main>
       <footer>
