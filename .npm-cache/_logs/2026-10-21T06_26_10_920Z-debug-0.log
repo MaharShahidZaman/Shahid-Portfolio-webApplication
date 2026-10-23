@@ -1,0 +1,643 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\npm\bin\npm-cli.js
+1 info using npm@10.2.4
+2 info using node@v20.11.1
+3 timing npm:load:whichnode Completed in 5ms
+4 timing config:load:defaults Completed in 2ms
+5 timing config:load:file:C:\Users\sc\AppData\Roaming\nvm\v20.11.1\node_modules\npm\npmrc Completed in 5ms
+6 timing config:load:builtin Completed in 5ms
+7 timing config:load:cli Completed in 2ms
+8 timing config:load:env Completed in 0ms
+9 timing config:load:file:D:\GitHub\Shahid-Portfolio-webApplication\.npmrc Completed in 1ms
+10 timing config:load:project Completed in 1ms
+11 timing config:load:file:C:\Users\shahidzaman\.npmrc Completed in 0ms
+12 timing config:load:user Completed in 0ms
+13 timing config:load:file:C:\Users\shahidzaman\AppData\Roaming\npm\etc\npmrc Completed in 0ms
+14 timing config:load:global Completed in 0ms
+15 timing config:load:setEnvs Completed in 1ms
+16 timing config:load Completed in 14ms
+17 timing npm:load:configload Completed in 15ms
+18 timing config:load:flatten Completed in 3ms
+19 timing npm:load:mkdirpcache Completed in 1ms
+20 timing npm:load:mkdirplogs Completed in 0ms
+21 verbose title npm install
+22 verbose argv "install" "--cache" ".npm-cache" "--prefer-online"
+23 timing npm:load:setTitle Completed in 1ms
+24 timing npm:load:display Completed in 1ms
+25 verbose logfile logs-max:10 dir:D:\GitHub\Shahid-Portfolio-webApplication\.npm-cache\_logs\2026-10-21T06_26_10_920Z-
+26 verbose logfile D:\GitHub\Shahid-Portfolio-webApplication\.npm-cache\_logs\2026-10-21T06_26_10_920Z-debug-0.log
+27 timing npm:load:logFile Completed in 216ms
+28 timing npm:load:timers Completed in 0ms
+29 timing npm:load:configScope Completed in 0ms
+30 timing npm:load Completed in 269ms
+31 timing arborist:ctor Completed in 1ms
+32 silly logfile done cleaning log files
+33 timing idealTree:init Completed in 71ms
+34 timing idealTree:userRequests Completed in 0ms
+35 silly idealTree buildDeps
+36 timing idealTree:#root Completed in 0ms
+37 timing idealTree:buildDeps Completed in 2ms
+38 timing idealTree:fixDepFlags Completed in 0ms
+39 timing idealTree Completed in 77ms
+40 timing reify:loadTrees Completed in 81ms
+41 timing reify:diffTrees Completed in 6ms
+42 silly reify moves {}
+43 timing reify:retireShallow Completed in 1ms
+44 timing reify:createSparse Completed in 1948ms
+45 timing reify:loadBundles Completed in 0ms
+46 silly audit report null
+47 timing reify:audit Completed in 6ms
+48 verbose reify failed optional dependency D:\GitHub\Shahid-Portfolio-webApplication\node_modules\fsevents
+49 silly reify mark deleted [
+49 silly reify   'D:\\GitHub\\Shahid-Portfolio-webApplication\\node_modules\\fsevents'
+49 silly reify ]
+50 verbose reify failed optional dependency D:\GitHub\Shahid-Portfolio-webApplication\node_modules\@next\swc-win32-arm64-msvc
+51 silly reify mark deleted [
+51 silly reify   'D:\\GitHub\\Shahid-Portfolio-webApplication\\node_modules\\@next\\swc-win32-arm64-msvc'
+51 silly reify ]
+52 verbose reify failed optional dependency D:\GitHub\Shahid-Portfolio-webApplication\node_modules\@next\swc-linux-x64-musl
+53 silly reify mark deleted [
+53 silly reify   'D:\\GitHub\\Shahid-Portfolio-webApplication\\node_modules\\@next\\swc-linux-x64-musl'
+53 silly reify ]
+54 verbose reify failed optional dependency D:\GitHub\Shahid-Portfolio-webApplication\node_modules\@next\swc-linux-x64-gnu
+55 silly reify mark deleted [
+55 silly reify   'D:\\GitHub\\Shahid-Portfolio-webApplication\\node_modules\\@next\\swc-linux-x64-gnu'
+55 silly reify ]
+56 verbose reify failed optional dependency D:\GitHub\Shahid-Portfolio-webApplication\node_modules\@next\swc-linux-arm64-musl
+57 silly reify mark deleted [
+57 silly reify   'D:\\GitHub\\Shahid-Portfolio-webApplication\\node_modules\\@next\\swc-linux-arm64-musl'
+57 silly reify ]
+58 verbose reify failed optional dependency D:\GitHub\Shahid-Portfolio-webApplication\node_modules\@next\swc-linux-arm64-gnu
+59 silly reify mark deleted [
+59 silly reify   'D:\\GitHub\\Shahid-Portfolio-webApplication\\node_modules\\@next\\swc-linux-arm64-gnu'
+59 silly reify ]
+60 verbose reify failed optional dependency D:\GitHub\Shahid-Portfolio-webApplication\node_modules\@next\swc-darwin-x64
+61 silly reify mark deleted [
+61 silly reify   'D:\\GitHub\\Shahid-Portfolio-webApplication\\node_modules\\@next\\swc-darwin-x64'
+61 silly reify ]
+62 verbose reify failed optional dependency D:\GitHub\Shahid-Portfolio-webApplication\node_modules\@next\swc-darwin-arm64
+63 silly reify mark deleted [
+63 silly reify   'D:\\GitHub\\Shahid-Portfolio-webApplication\\node_modules\\@next\\swc-darwin-arm64'
+63 silly reify ]
+64 verbose reify failed optional dependency D:\GitHub\Shahid-Portfolio-webApplication\node_modules\@img\sharp-win32-ia32
+65 silly reify mark deleted [
+65 silly reify   'D:\\GitHub\\Shahid-Portfolio-webApplication\\node_modules\\@img\\sharp-win32-ia32'
+65 silly reify ]
+66 verbose reify failed optional dependency D:\GitHub\Shahid-Portfolio-webApplication\node_modules\@img\sharp-wasm32
+67 silly reify mark deleted [
+67 silly reify   'D:\\GitHub\\Shahid-Portfolio-webApplication\\node_modules\\@img\\sharp-wasm32'
+67 silly reify ]
+68 verbose reify failed optional dependency D:\GitHub\Shahid-Portfolio-webApplication\node_modules\@emnapi\runtime
+69 silly reify mark deleted [
+69 silly reify   'D:\\GitHub\\Shahid-Portfolio-webApplication\\node_modules\\@emnapi\\runtime'
+69 silly reify ]
+70 verbose reify failed optional dependency D:\GitHub\Shahid-Portfolio-webApplication\node_modules\@img\sharp-linuxmusl-x64
+71 silly reify mark deleted [
+71 silly reify   'D:\\GitHub\\Shahid-Portfolio-webApplication\\node_modules\\@img\\sharp-linuxmusl-x64'
+71 silly reify ]
+72 verbose reify failed optional dependency D:\GitHub\Shahid-Portfolio-webApplication\node_modules\@img\sharp-linuxmusl-arm64
+73 silly reify mark deleted [
+73 silly reify   'D:\\GitHub\\Shahid-Portfolio-webApplication\\node_modules\\@img\\sharp-linuxmusl-arm64'
+73 silly reify ]
+74 verbose reify failed optional dependency D:\GitHub\Shahid-Portfolio-webApplication\node_modules\@img\sharp-linux-x64
+75 silly reify mark deleted [
+75 silly reify   'D:\\GitHub\\Shahid-Portfolio-webApplication\\node_modules\\@img\\sharp-linux-x64'
+75 silly reify ]
+76 verbose reify failed optional dependency D:\GitHub\Shahid-Portfolio-webApplication\node_modules\@img\sharp-linux-s390x
+77 silly reify mark deleted [
+77 silly reify   'D:\\GitHub\\Shahid-Portfolio-webApplication\\node_modules\\@img\\sharp-linux-s390x'
+77 silly reify ]
+78 verbose reify failed optional dependency D:\GitHub\Shahid-Portfolio-webApplication\node_modules\@img\sharp-linux-arm64
+79 silly reify mark deleted [
+79 silly reify   'D:\\GitHub\\Shahid-Portfolio-webApplication\\node_modules\\@img\\sharp-linux-arm64'
+79 silly reify ]
+80 verbose reify failed optional dependency D:\GitHub\Shahid-Portfolio-webApplication\node_modules\@img\sharp-linux-arm
+81 silly reify mark deleted [
+81 silly reify   'D:\\GitHub\\Shahid-Portfolio-webApplication\\node_modules\\@img\\sharp-linux-arm'
+81 silly reify ]
+82 verbose reify failed optional dependency D:\GitHub\Shahid-Portfolio-webApplication\node_modules\@img\sharp-libvips-linuxmusl-x64
+83 silly reify mark deleted [
+83 silly reify   'D:\\GitHub\\Shahid-Portfolio-webApplication\\node_modules\\@img\\sharp-libvips-linuxmusl-x64'
+83 silly reify ]
+84 verbose reify failed optional dependency D:\GitHub\Shahid-Portfolio-webApplication\node_modules\@img\sharp-libvips-linuxmusl-arm64
+85 silly reify mark deleted [
+85 silly reify   'D:\\GitHub\\Shahid-Portfolio-webApplication\\node_modules\\@img\\sharp-libvips-linuxmusl-arm64'
+85 silly reify ]
+86 verbose reify failed optional dependency D:\GitHub\Shahid-Portfolio-webApplication\node_modules\@img\sharp-libvips-linux-x64
+87 silly reify mark deleted [
+87 silly reify   'D:\\GitHub\\Shahid-Portfolio-webApplication\\node_modules\\@img\\sharp-libvips-linux-x64'
+87 silly reify ]
+88 verbose reify failed optional dependency D:\GitHub\Shahid-Portfolio-webApplication\node_modules\@img\sharp-libvips-linux-s390x
+89 silly reify mark deleted [
+89 silly reify   'D:\\GitHub\\Shahid-Portfolio-webApplication\\node_modules\\@img\\sharp-libvips-linux-s390x'
+89 silly reify ]
+90 verbose reify failed optional dependency D:\GitHub\Shahid-Portfolio-webApplication\node_modules\@img\sharp-libvips-linux-arm64
+91 silly reify mark deleted [
+91 silly reify   'D:\\GitHub\\Shahid-Portfolio-webApplication\\node_modules\\@img\\sharp-libvips-linux-arm64'
+91 silly reify ]
+92 verbose reify failed optional dependency D:\GitHub\Shahid-Portfolio-webApplication\node_modules\@img\sharp-libvips-linux-arm
+93 silly reify mark deleted [
+93 silly reify   'D:\\GitHub\\Shahid-Portfolio-webApplication\\node_modules\\@img\\sharp-libvips-linux-arm'
+93 silly reify ]
+94 verbose reify failed optional dependency D:\GitHub\Shahid-Portfolio-webApplication\node_modules\@img\sharp-libvips-darwin-x64
+95 silly reify mark deleted [
+95 silly reify   'D:\\GitHub\\Shahid-Portfolio-webApplication\\node_modules\\@img\\sharp-libvips-darwin-x64'
+95 silly reify ]
+96 verbose reify failed optional dependency D:\GitHub\Shahid-Portfolio-webApplication\node_modules\@img\sharp-libvips-darwin-arm64
+97 silly reify mark deleted [
+97 silly reify   'D:\\GitHub\\Shahid-Portfolio-webApplication\\node_modules\\@img\\sharp-libvips-darwin-arm64'
+97 silly reify ]
+98 verbose reify failed optional dependency D:\GitHub\Shahid-Portfolio-webApplication\node_modules\@img\sharp-darwin-x64
+99 silly reify mark deleted [
+99 silly reify   'D:\\GitHub\\Shahid-Portfolio-webApplication\\node_modules\\@img\\sharp-darwin-x64'
+99 silly reify ]
+100 verbose reify failed optional dependency D:\GitHub\Shahid-Portfolio-webApplication\node_modules\@img\sharp-darwin-arm64
+101 silly reify mark deleted [
+101 silly reify   'D:\\GitHub\\Shahid-Portfolio-webApplication\\node_modules\\@img\\sharp-darwin-arm64'
+101 silly reify ]
+102 timing reifyNode:node_modules/fsevents Completed in 28ms
+103 timing reifyNode:node_modules/@next/swc-win32-arm64-msvc Completed in 26ms
+104 timing reifyNode:node_modules/@next/swc-linux-x64-musl Completed in 26ms
+105 timing reifyNode:node_modules/@next/swc-linux-x64-gnu Completed in 26ms
+106 timing reifyNode:node_modules/@next/swc-linux-arm64-musl Completed in 27ms
+107 timing reifyNode:node_modules/@next/swc-linux-arm64-gnu Completed in 27ms
+108 timing reifyNode:node_modules/@next/swc-darwin-x64 Completed in 37ms
+109 timing reifyNode:node_modules/@next/swc-darwin-arm64 Completed in 37ms
+110 timing reifyNode:node_modules/@img/sharp-win32-ia32 Completed in 37ms
+111 timing reifyNode:node_modules/@img/sharp-wasm32 Completed in 37ms
+112 timing reifyNode:node_modules/@img/sharp-linuxmusl-x64 Completed in 37ms
+113 timing reifyNode:node_modules/@img/sharp-linuxmusl-arm64 Completed in 37ms
+114 timing reifyNode:node_modules/@img/sharp-linux-x64 Completed in 37ms
+115 timing reifyNode:node_modules/@img/sharp-linux-s390x Completed in 36ms
+116 timing reifyNode:node_modules/@img/sharp-linux-arm64 Completed in 36ms
+117 timing reifyNode:node_modules/@img/sharp-linux-arm Completed in 36ms
+118 timing reifyNode:node_modules/@img/sharp-libvips-linuxmusl-x64 Completed in 37ms
+119 timing reifyNode:node_modules/@img/sharp-libvips-linuxmusl-arm64 Completed in 37ms
+120 timing reifyNode:node_modules/@img/sharp-libvips-linux-x64 Completed in 37ms
+121 timing reifyNode:node_modules/@img/sharp-libvips-linux-s390x Completed in 37ms
+122 timing reifyNode:node_modules/@img/sharp-libvips-linux-arm64 Completed in 37ms
+123 timing reifyNode:node_modules/@img/sharp-libvips-linux-arm Completed in 37ms
+124 timing reifyNode:node_modules/@img/sharp-libvips-darwin-x64 Completed in 37ms
+125 timing reifyNode:node_modules/@img/sharp-libvips-darwin-arm64 Completed in 37ms
+126 timing reifyNode:node_modules/@img/sharp-darwin-x64 Completed in 37ms
+127 timing reifyNode:node_modules/@img/sharp-darwin-arm64 Completed in 37ms
+128 verbose reify failed optional dependency D:\GitHub\Shahid-Portfolio-webApplication\node_modules\simple-swizzle
+129 silly reify mark deleted [
+129 silly reify   'D:\\GitHub\\Shahid-Portfolio-webApplication\\node_modules\\simple-swizzle'
+129 silly reify ]
+130 verbose reify failed optional dependency D:\GitHub\Shahid-Portfolio-webApplication\node_modules\color-string
+131 silly reify mark deleted [
+131 silly reify   'D:\\GitHub\\Shahid-Portfolio-webApplication\\node_modules\\color-string'
+131 silly reify ]
+132 verbose reify failed optional dependency D:\GitHub\Shahid-Portfolio-webApplication\node_modules\color
+133 silly reify mark deleted [ 'D:\\GitHub\\Shahid-Portfolio-webApplication\\node_modules\\color' ]
+134 verbose reify failed optional dependency D:\GitHub\Shahid-Portfolio-webApplication\node_modules\sharp
+135 silly reify mark deleted [ 'D:\\GitHub\\Shahid-Portfolio-webApplication\\node_modules\\sharp' ]
+136 verbose reify failed optional dependency D:\GitHub\Shahid-Portfolio-webApplication\node_modules\is-arrayish
+137 silly reify mark deleted [
+137 silly reify   'D:\\GitHub\\Shahid-Portfolio-webApplication\\node_modules\\is-arrayish'
+137 silly reify ]
+138 verbose reify failed optional dependency D:\GitHub\Shahid-Portfolio-webApplication\node_modules\color-name
+139 silly reify mark deleted [
+139 silly reify   'D:\\GitHub\\Shahid-Portfolio-webApplication\\node_modules\\color-name'
+139 silly reify ]
+140 verbose reify failed optional dependency D:\GitHub\Shahid-Portfolio-webApplication\node_modules\color-convert
+141 silly reify mark deleted [
+141 silly reify   'D:\\GitHub\\Shahid-Portfolio-webApplication\\node_modules\\color-convert'
+141 silly reify ]
+142 verbose reify failed optional dependency D:\GitHub\Shahid-Portfolio-webApplication\node_modules\detect-libc
+143 silly reify mark deleted [
+143 silly reify   'D:\\GitHub\\Shahid-Portfolio-webApplication\\node_modules\\detect-libc'
+143 silly reify ]
+144 verbose reify failed optional dependency D:\GitHub\Shahid-Portfolio-webApplication\node_modules\semver
+145 silly reify mark deleted [
+145 silly reify   'D:\\GitHub\\Shahid-Portfolio-webApplication\\node_modules\\semver',
+145 silly reify   'D:\\GitHub\\Shahid-Portfolio-webApplication\\node_modules\\.bin\\semver',
+145 silly reify   'D:\\GitHub\\Shahid-Portfolio-webApplication\\node_modules\\.bin\\semver.cmd',
+145 silly reify   'D:\\GitHub\\Shahid-Portfolio-webApplication\\node_modules\\.bin\\semver.ps1'
+145 silly reify ]
+146 timing reifyNode:node_modules/simple-swizzle Completed in 215ms
+147 verbose reify failed optional dependency D:\GitHub\Shahid-Portfolio-webApplication\node_modules\sharp
+148 silly reify mark deleted [ 'D:\\GitHub\\Shahid-Portfolio-webApplication\\node_modules\\sharp' ]
+149 verbose reify failed optional dependency D:\GitHub\Shahid-Portfolio-webApplication\node_modules\color
+150 silly reify mark deleted [ 'D:\\GitHub\\Shahid-Portfolio-webApplication\\node_modules\\color' ]
+151 verbose reify failed optional dependency D:\GitHub\Shahid-Portfolio-webApplication\node_modules\detect-libc
+152 silly reify mark deleted [
+152 silly reify   'D:\\GitHub\\Shahid-Portfolio-webApplication\\node_modules\\detect-libc'
+152 silly reify ]
+153 verbose reify failed optional dependency D:\GitHub\Shahid-Portfolio-webApplication\node_modules\semver
+154 silly reify mark deleted [
+154 silly reify   'D:\\GitHub\\Shahid-Portfolio-webApplication\\node_modules\\semver',
+154 silly reify   'D:\\GitHub\\Shahid-Portfolio-webApplication\\node_modules\\.bin\\semver',
+154 silly reify   'D:\\GitHub\\Shahid-Portfolio-webApplication\\node_modules\\.bin\\semver.cmd',
+154 silly reify   'D:\\GitHub\\Shahid-Portfolio-webApplication\\node_modules\\.bin\\semver.ps1'
+154 silly reify ]
+155 verbose reify failed optional dependency D:\GitHub\Shahid-Portfolio-webApplication\node_modules\color-convert
+156 silly reify mark deleted [
+156 silly reify   'D:\\GitHub\\Shahid-Portfolio-webApplication\\node_modules\\color-convert'
+156 silly reify ]
+157 verbose reify failed optional dependency D:\GitHub\Shahid-Portfolio-webApplication\node_modules\color-string
+158 silly reify mark deleted [
+158 silly reify   'D:\\GitHub\\Shahid-Portfolio-webApplication\\node_modules\\color-string'
+158 silly reify ]
+159 verbose reify failed optional dependency D:\GitHub\Shahid-Portfolio-webApplication\node_modules\color-name
+160 silly reify mark deleted [
+160 silly reify   'D:\\GitHub\\Shahid-Portfolio-webApplication\\node_modules\\color-name'
+160 silly reify ]
+161 verbose reify failed optional dependency D:\GitHub\Shahid-Portfolio-webApplication\node_modules\simple-swizzle
+162 silly reify mark deleted [
+162 silly reify   'D:\\GitHub\\Shahid-Portfolio-webApplication\\node_modules\\simple-swizzle'
+162 silly reify ]
+163 verbose reify failed optional dependency D:\GitHub\Shahid-Portfolio-webApplication\node_modules\is-arrayish
+164 silly reify mark deleted [
+164 silly reify   'D:\\GitHub\\Shahid-Portfolio-webApplication\\node_modules\\is-arrayish'
+164 silly reify ]
+165 timing reifyNode:node_modules/sharp Completed in 216ms
+166 verbose reify failed optional dependency D:\GitHub\Shahid-Portfolio-webApplication\node_modules\semver
+167 silly reify mark deleted [
+167 silly reify   'D:\\GitHub\\Shahid-Portfolio-webApplication\\node_modules\\semver',
+167 silly reify   'D:\\GitHub\\Shahid-Portfolio-webApplication\\node_modules\\.bin\\semver',
+167 silly reify   'D:\\GitHub\\Shahid-Portfolio-webApplication\\node_modules\\.bin\\semver.cmd',
+167 silly reify   'D:\\GitHub\\Shahid-Portfolio-webApplication\\node_modules\\.bin\\semver.ps1'
+167 silly reify ]
+168 verbose reify failed optional dependency D:\GitHub\Shahid-Portfolio-webApplication\node_modules\sharp
+169 silly reify mark deleted [ 'D:\\GitHub\\Shahid-Portfolio-webApplication\\node_modules\\sharp' ]
+170 verbose reify failed optional dependency D:\GitHub\Shahid-Portfolio-webApplication\node_modules\color
+171 silly reify mark deleted [ 'D:\\GitHub\\Shahid-Portfolio-webApplication\\node_modules\\color' ]
+172 verbose reify failed optional dependency D:\GitHub\Shahid-Portfolio-webApplication\node_modules\detect-libc
+173 silly reify mark deleted [
+173 silly reify   'D:\\GitHub\\Shahid-Portfolio-webApplication\\node_modules\\detect-libc'
+173 silly reify ]
+174 verbose reify failed optional dependency D:\GitHub\Shahid-Portfolio-webApplication\node_modules\color-convert
+175 silly reify mark deleted [
+175 silly reify   'D:\\GitHub\\Shahid-Portfolio-webApplication\\node_modules\\color-convert'
+175 silly reify ]
+176 verbose reify failed optional dependency D:\GitHub\Shahid-Portfolio-webApplication\node_modules\color-string
+177 silly reify mark deleted [
+177 silly reify   'D:\\GitHub\\Shahid-Portfolio-webApplication\\node_modules\\color-string'
+177 silly reify ]
+178 verbose reify failed optional dependency D:\GitHub\Shahid-Portfolio-webApplication\node_modules\color-name
+179 silly reify mark deleted [
+179 silly reify   'D:\\GitHub\\Shahid-Portfolio-webApplication\\node_modules\\color-name'
+179 silly reify ]
+180 verbose reify failed optional dependency D:\GitHub\Shahid-Portfolio-webApplication\node_modules\simple-swizzle
+181 silly reify mark deleted [
+181 silly reify   'D:\\GitHub\\Shahid-Portfolio-webApplication\\node_modules\\simple-swizzle'
+181 silly reify ]
+182 verbose reify failed optional dependency D:\GitHub\Shahid-Portfolio-webApplication\node_modules\is-arrayish
+183 silly reify mark deleted [
+183 silly reify   'D:\\GitHub\\Shahid-Portfolio-webApplication\\node_modules\\is-arrayish'
+183 silly reify ]
+184 timing reifyNode:node_modules/semver Completed in 218ms
+185 verbose reify failed optional dependency D:\GitHub\Shahid-Portfolio-webApplication\node_modules\is-arrayish
+186 silly reify mark deleted [
+186 silly reify   'D:\\GitHub\\Shahid-Portfolio-webApplication\\node_modules\\is-arrayish'
+186 silly reify ]
+187 verbose reify failed optional dependency D:\GitHub\Shahid-Portfolio-webApplication\node_modules\simple-swizzle
+188 silly reify mark deleted [
+188 silly reify   'D:\\GitHub\\Shahid-Portfolio-webApplication\\node_modules\\simple-swizzle'
+188 silly reify ]
+189 verbose reify failed optional dependency D:\GitHub\Shahid-Portfolio-webApplication\node_modules\color-string
+190 silly reify mark deleted [
+190 silly reify   'D:\\GitHub\\Shahid-Portfolio-webApplication\\node_modules\\color-string'
+190 silly reify ]
+191 verbose reify failed optional dependency D:\GitHub\Shahid-Portfolio-webApplication\node_modules\color
+192 silly reify mark deleted [ 'D:\\GitHub\\Shahid-Portfolio-webApplication\\node_modules\\color' ]
+193 verbose reify failed optional dependency D:\GitHub\Shahid-Portfolio-webApplication\node_modules\sharp
+194 silly reify mark deleted [ 'D:\\GitHub\\Shahid-Portfolio-webApplication\\node_modules\\sharp' ]
+195 verbose reify failed optional dependency D:\GitHub\Shahid-Portfolio-webApplication\node_modules\color-name
+196 silly reify mark deleted [
+196 silly reify   'D:\\GitHub\\Shahid-Portfolio-webApplication\\node_modules\\color-name'
+196 silly reify ]
+197 verbose reify failed optional dependency D:\GitHub\Shahid-Portfolio-webApplication\node_modules\color-convert
+198 silly reify mark deleted [
+198 silly reify   'D:\\GitHub\\Shahid-Portfolio-webApplication\\node_modules\\color-convert'
+198 silly reify ]
+199 verbose reify failed optional dependency D:\GitHub\Shahid-Portfolio-webApplication\node_modules\detect-libc
+200 silly reify mark deleted [
+200 silly reify   'D:\\GitHub\\Shahid-Portfolio-webApplication\\node_modules\\detect-libc'
+200 silly reify ]
+201 verbose reify failed optional dependency D:\GitHub\Shahid-Portfolio-webApplication\node_modules\semver
+202 silly reify mark deleted [
+202 silly reify   'D:\\GitHub\\Shahid-Portfolio-webApplication\\node_modules\\semver',
+202 silly reify   'D:\\GitHub\\Shahid-Portfolio-webApplication\\node_modules\\.bin\\semver',
+202 silly reify   'D:\\GitHub\\Shahid-Portfolio-webApplication\\node_modules\\.bin\\semver.cmd',
+202 silly reify   'D:\\GitHub\\Shahid-Portfolio-webApplication\\node_modules\\.bin\\semver.ps1'
+202 silly reify ]
+203 timing reifyNode:node_modules/is-arrayish Completed in 221ms
+204 verbose reify failed optional dependency D:\GitHub\Shahid-Portfolio-webApplication\node_modules\detect-libc
+205 silly reify mark deleted [
+205 silly reify   'D:\\GitHub\\Shahid-Portfolio-webApplication\\node_modules\\detect-libc'
+205 silly reify ]
+206 verbose reify failed optional dependency D:\GitHub\Shahid-Portfolio-webApplication\node_modules\sharp
+207 silly reify mark deleted [ 'D:\\GitHub\\Shahid-Portfolio-webApplication\\node_modules\\sharp' ]
+208 verbose reify failed optional dependency D:\GitHub\Shahid-Portfolio-webApplication\node_modules\color
+209 silly reify mark deleted [ 'D:\\GitHub\\Shahid-Portfolio-webApplication\\node_modules\\color' ]
+210 verbose reify failed optional dependency D:\GitHub\Shahid-Portfolio-webApplication\node_modules\semver
+211 silly reify mark deleted [
+211 silly reify   'D:\\GitHub\\Shahid-Portfolio-webApplication\\node_modules\\semver',
+211 silly reify   'D:\\GitHub\\Shahid-Portfolio-webApplication\\node_modules\\.bin\\semver',
+211 silly reify   'D:\\GitHub\\Shahid-Portfolio-webApplication\\node_modules\\.bin\\semver.cmd',
+211 silly reify   'D:\\GitHub\\Shahid-Portfolio-webApplication\\node_modules\\.bin\\semver.ps1'
+211 silly reify ]
+212 verbose reify failed optional dependency D:\GitHub\Shahid-Portfolio-webApplication\node_modules\color-convert
+213 silly reify mark deleted [
+213 silly reify   'D:\\GitHub\\Shahid-Portfolio-webApplication\\node_modules\\color-convert'
+213 silly reify ]
+214 verbose reify failed optional dependency D:\GitHub\Shahid-Portfolio-webApplication\node_modules\color-string
+215 silly reify mark deleted [
+215 silly reify   'D:\\GitHub\\Shahid-Portfolio-webApplication\\node_modules\\color-string'
+215 silly reify ]
+216 verbose reify failed optional dependency D:\GitHub\Shahid-Portfolio-webApplication\node_modules\color-name
+217 silly reify mark deleted [
+217 silly reify   'D:\\GitHub\\Shahid-Portfolio-webApplication\\node_modules\\color-name'
+217 silly reify ]
+218 verbose reify failed optional dependency D:\GitHub\Shahid-Portfolio-webApplication\node_modules\simple-swizzle
+219 silly reify mark deleted [
+219 silly reify   'D:\\GitHub\\Shahid-Portfolio-webApplication\\node_modules\\simple-swizzle'
+219 silly reify ]
+220 verbose reify failed optional dependency D:\GitHub\Shahid-Portfolio-webApplication\node_modules\is-arrayish
+221 silly reify mark deleted [
+221 silly reify   'D:\\GitHub\\Shahid-Portfolio-webApplication\\node_modules\\is-arrayish'
+221 silly reify ]
+222 timing reifyNode:node_modules/detect-libc Completed in 222ms
+223 verbose reify failed optional dependency D:\GitHub\Shahid-Portfolio-webApplication\node_modules\color-string
+224 silly reify mark deleted [
+224 silly reify   'D:\\GitHub\\Shahid-Portfolio-webApplication\\node_modules\\color-string'
+224 silly reify ]
+225 verbose reify failed optional dependency D:\GitHub\Shahid-Portfolio-webApplication\node_modules\color
+226 silly reify mark deleted [ 'D:\\GitHub\\Shahid-Portfolio-webApplication\\node_modules\\color' ]
+227 verbose reify failed optional dependency D:\GitHub\Shahid-Portfolio-webApplication\node_modules\sharp
+228 silly reify mark deleted [ 'D:\\GitHub\\Shahid-Portfolio-webApplication\\node_modules\\sharp' ]
+229 verbose reify failed optional dependency D:\GitHub\Shahid-Portfolio-webApplication\node_modules\color-name
+230 silly reify mark deleted [
+230 silly reify   'D:\\GitHub\\Shahid-Portfolio-webApplication\\node_modules\\color-name'
+230 silly reify ]
+231 verbose reify failed optional dependency D:\GitHub\Shahid-Portfolio-webApplication\node_modules\simple-swizzle
+232 silly reify mark deleted [
+232 silly reify   'D:\\GitHub\\Shahid-Portfolio-webApplication\\node_modules\\simple-swizzle'
+232 silly reify ]
+233 verbose reify failed optional dependency D:\GitHub\Shahid-Portfolio-webApplication\node_modules\color-convert
+234 silly reify mark deleted [
+234 silly reify   'D:\\GitHub\\Shahid-Portfolio-webApplication\\node_modules\\color-convert'
+234 silly reify ]
+235 verbose reify failed optional dependency D:\GitHub\Shahid-Portfolio-webApplication\node_modules\detect-libc
+236 silly reify mark deleted [
+236 silly reify   'D:\\GitHub\\Shahid-Portfolio-webApplication\\node_modules\\detect-libc'
+236 silly reify ]
+237 verbose reify failed optional dependency D:\GitHub\Shahid-Portfolio-webApplication\node_modules\semver
+238 silly reify mark deleted [
+238 silly reify   'D:\\GitHub\\Shahid-Portfolio-webApplication\\node_modules\\semver',
+238 silly reify   'D:\\GitHub\\Shahid-Portfolio-webApplication\\node_modules\\.bin\\semver',
+238 silly reify   'D:\\GitHub\\Shahid-Portfolio-webApplication\\node_modules\\.bin\\semver.cmd',
+238 silly reify   'D:\\GitHub\\Shahid-Portfolio-webApplication\\node_modules\\.bin\\semver.ps1'
+238 silly reify ]
+239 verbose reify failed optional dependency D:\GitHub\Shahid-Portfolio-webApplication\node_modules\is-arrayish
+240 silly reify mark deleted [
+240 silly reify   'D:\\GitHub\\Shahid-Portfolio-webApplication\\node_modules\\is-arrayish'
+240 silly reify ]
+241 timing reifyNode:node_modules/color-string Completed in 223ms
+242 verbose reify failed optional dependency D:\GitHub\Shahid-Portfolio-webApplication\node_modules\color-name
+243 silly reify mark deleted [
+243 silly reify   'D:\\GitHub\\Shahid-Portfolio-webApplication\\node_modules\\color-name'
+243 silly reify ]
+244 verbose reify failed optional dependency D:\GitHub\Shahid-Portfolio-webApplication\node_modules\color-convert
+245 silly reify mark deleted [
+245 silly reify   'D:\\GitHub\\Shahid-Portfolio-webApplication\\node_modules\\color-convert'
+245 silly reify ]
+246 verbose reify failed optional dependency D:\GitHub\Shahid-Portfolio-webApplication\node_modules\color-string
+247 silly reify mark deleted [
+247 silly reify   'D:\\GitHub\\Shahid-Portfolio-webApplication\\node_modules\\color-string'
+247 silly reify ]
+248 verbose reify failed optional dependency D:\GitHub\Shahid-Portfolio-webApplication\node_modules\color
+249 silly reify mark deleted [ 'D:\\GitHub\\Shahid-Portfolio-webApplication\\node_modules\\color' ]
+250 verbose reify failed optional dependency D:\GitHub\Shahid-Portfolio-webApplication\node_modules\sharp
+251 silly reify mark deleted [ 'D:\\GitHub\\Shahid-Portfolio-webApplication\\node_modules\\sharp' ]
+252 verbose reify failed optional dependency D:\GitHub\Shahid-Portfolio-webApplication\node_modules\simple-swizzle
+253 silly reify mark deleted [
+253 silly reify   'D:\\GitHub\\Shahid-Portfolio-webApplication\\node_modules\\simple-swizzle'
+253 silly reify ]
+254 verbose reify failed optional dependency D:\GitHub\Shahid-Portfolio-webApplication\node_modules\detect-libc
+255 silly reify mark deleted [
+255 silly reify   'D:\\GitHub\\Shahid-Portfolio-webApplication\\node_modules\\detect-libc'
+255 silly reify ]
+256 verbose reify failed optional dependency D:\GitHub\Shahid-Portfolio-webApplication\node_modules\semver
+257 silly reify mark deleted [
+257 silly reify   'D:\\GitHub\\Shahid-Portfolio-webApplication\\node_modules\\semver',
+257 silly reify   'D:\\GitHub\\Shahid-Portfolio-webApplication\\node_modules\\.bin\\semver',
+257 silly reify   'D:\\GitHub\\Shahid-Portfolio-webApplication\\node_modules\\.bin\\semver.cmd',
+257 silly reify   'D:\\GitHub\\Shahid-Portfolio-webApplication\\node_modules\\.bin\\semver.ps1'
+257 silly reify ]
+258 verbose reify failed optional dependency D:\GitHub\Shahid-Portfolio-webApplication\node_modules\is-arrayish
+259 silly reify mark deleted [
+259 silly reify   'D:\\GitHub\\Shahid-Portfolio-webApplication\\node_modules\\is-arrayish'
+259 silly reify ]
+260 timing reifyNode:node_modules/color-name Completed in 223ms
+261 verbose reify failed optional dependency D:\GitHub\Shahid-Portfolio-webApplication\node_modules\color-convert
+262 silly reify mark deleted [
+262 silly reify   'D:\\GitHub\\Shahid-Portfolio-webApplication\\node_modules\\color-convert'
+262 silly reify ]
+263 verbose reify failed optional dependency D:\GitHub\Shahid-Portfolio-webApplication\node_modules\color
+264 silly reify mark deleted [ 'D:\\GitHub\\Shahid-Portfolio-webApplication\\node_modules\\color' ]
+265 verbose reify failed optional dependency D:\GitHub\Shahid-Portfolio-webApplication\node_modules\sharp
+266 silly reify mark deleted [ 'D:\\GitHub\\Shahid-Portfolio-webApplication\\node_modules\\sharp' ]
+267 verbose reify failed optional dependency D:\GitHub\Shahid-Portfolio-webApplication\node_modules\color-name
+268 silly reify mark deleted [
+268 silly reify   'D:\\GitHub\\Shahid-Portfolio-webApplication\\node_modules\\color-name'
+268 silly reify ]
+269 verbose reify failed optional dependency D:\GitHub\Shahid-Portfolio-webApplication\node_modules\color-string
+270 silly reify mark deleted [
+270 silly reify   'D:\\GitHub\\Shahid-Portfolio-webApplication\\node_modules\\color-string'
+270 silly reify ]
+271 verbose reify failed optional dependency D:\GitHub\Shahid-Portfolio-webApplication\node_modules\detect-libc
+272 silly reify mark deleted [
+272 silly reify   'D:\\GitHub\\Shahid-Portfolio-webApplication\\node_modules\\detect-libc'
+272 silly reify ]
+273 verbose reify failed optional dependency D:\GitHub\Shahid-Portfolio-webApplication\node_modules\semver
+274 silly reify mark deleted [
+274 silly reify   'D:\\GitHub\\Shahid-Portfolio-webApplication\\node_modules\\semver',
+274 silly reify   'D:\\GitHub\\Shahid-Portfolio-webApplication\\node_modules\\.bin\\semver',
+274 silly reify   'D:\\GitHub\\Shahid-Portfolio-webApplication\\node_modules\\.bin\\semver.cmd',
+274 silly reify   'D:\\GitHub\\Shahid-Portfolio-webApplication\\node_modules\\.bin\\semver.ps1'
+274 silly reify ]
+275 verbose reify failed optional dependency D:\GitHub\Shahid-Portfolio-webApplication\node_modules\simple-swizzle
+276 silly reify mark deleted [
+276 silly reify   'D:\\GitHub\\Shahid-Portfolio-webApplication\\node_modules\\simple-swizzle'
+276 silly reify ]
+277 verbose reify failed optional dependency D:\GitHub\Shahid-Portfolio-webApplication\node_modules\is-arrayish
+278 silly reify mark deleted [
+278 silly reify   'D:\\GitHub\\Shahid-Portfolio-webApplication\\node_modules\\is-arrayish'
+278 silly reify ]
+279 timing reifyNode:node_modules/color-convert Completed in 224ms
+280 verbose reify failed optional dependency D:\GitHub\Shahid-Portfolio-webApplication\node_modules\color
+281 silly reify mark deleted [ 'D:\\GitHub\\Shahid-Portfolio-webApplication\\node_modules\\color' ]
+282 verbose reify failed optional dependency D:\GitHub\Shahid-Portfolio-webApplication\node_modules\sharp
+283 silly reify mark deleted [ 'D:\\GitHub\\Shahid-Portfolio-webApplication\\node_modules\\sharp' ]
+284 verbose reify failed optional dependency D:\GitHub\Shahid-Portfolio-webApplication\node_modules\color-convert
+285 silly reify mark deleted [
+285 silly reify   'D:\\GitHub\\Shahid-Portfolio-webApplication\\node_modules\\color-convert'
+285 silly reify ]
+286 verbose reify failed optional dependency D:\GitHub\Shahid-Portfolio-webApplication\node_modules\color-string
+287 silly reify mark deleted [
+287 silly reify   'D:\\GitHub\\Shahid-Portfolio-webApplication\\node_modules\\color-string'
+287 silly reify ]
+288 verbose reify failed optional dependency D:\GitHub\Shahid-Portfolio-webApplication\node_modules\detect-libc
+289 silly reify mark deleted [
+289 silly reify   'D:\\GitHub\\Shahid-Portfolio-webApplication\\node_modules\\detect-libc'
+289 silly reify ]
+290 verbose reify failed optional dependency D:\GitHub\Shahid-Portfolio-webApplication\node_modules\semver
+291 silly reify mark deleted [
+291 silly reify   'D:\\GitHub\\Shahid-Portfolio-webApplication\\node_modules\\semver',
+291 silly reify   'D:\\GitHub\\Shahid-Portfolio-webApplication\\node_modules\\.bin\\semver',
+291 silly reify   'D:\\GitHub\\Shahid-Portfolio-webApplication\\node_modules\\.bin\\semver.cmd',
+291 silly reify   'D:\\GitHub\\Shahid-Portfolio-webApplication\\node_modules\\.bin\\semver.ps1'
+291 silly reify ]
+292 verbose reify failed optional dependency D:\GitHub\Shahid-Portfolio-webApplication\node_modules\color-name
+293 silly reify mark deleted [
+293 silly reify   'D:\\GitHub\\Shahid-Portfolio-webApplication\\node_modules\\color-name'
+293 silly reify ]
+294 verbose reify failed optional dependency D:\GitHub\Shahid-Portfolio-webApplication\node_modules\simple-swizzle
+295 silly reify mark deleted [
+295 silly reify   'D:\\GitHub\\Shahid-Portfolio-webApplication\\node_modules\\simple-swizzle'
+295 silly reify ]
+296 verbose reify failed optional dependency D:\GitHub\Shahid-Portfolio-webApplication\node_modules\is-arrayish
+297 silly reify mark deleted [
+297 silly reify   'D:\\GitHub\\Shahid-Portfolio-webApplication\\node_modules\\is-arrayish'
+297 silly reify ]
+298 timing reifyNode:node_modules/color Completed in 225ms
+299 verbose reify failed optional dependency D:\GitHub\Shahid-Portfolio-webApplication\node_modules\@next\swc-win32-x64-msvc
+300 silly reify mark deleted [
+300 silly reify   'D:\\GitHub\\Shahid-Portfolio-webApplication\\node_modules\\@next\\swc-win32-x64-msvc'
+300 silly reify ]
+301 timing reifyNode:node_modules/@next/swc-win32-x64-msvc Completed in 225ms
+302 verbose reify failed optional dependency D:\GitHub\Shahid-Portfolio-webApplication\node_modules\@emnapi\runtime
+303 silly reify mark deleted [
+303 silly reify   'D:\\GitHub\\Shahid-Portfolio-webApplication\\node_modules\\@emnapi\\runtime'
+303 silly reify ]
+304 verbose reify failed optional dependency D:\GitHub\Shahid-Portfolio-webApplication\node_modules\@img\sharp-wasm32
+305 silly reify mark deleted [
+305 silly reify   'D:\\GitHub\\Shahid-Portfolio-webApplication\\node_modules\\@img\\sharp-wasm32'
+305 silly reify ]
+306 timing reifyNode:node_modules/@emnapi/runtime Completed in 233ms
+307 verbose reify failed optional dependency D:\GitHub\Shahid-Portfolio-webApplication\node_modules\@img\sharp-win32-x64
+308 silly reify mark deleted [
+308 silly reify   'D:\\GitHub\\Shahid-Portfolio-webApplication\\node_modules\\@img\\sharp-win32-x64'
+308 silly reify ]
+309 timing reifyNode:node_modules/@img/sharp-win32-x64 Completed in 234ms
+310 timing reify:rollback:createSparse Completed in 11ms
+311 timing reify:rollback:retireShallow Completed in 0ms
+312 timing command:install Completed in 2347ms
+313 verbose stack Error: request to https://registry.npmjs.org/util-deprecate/-/util-deprecate-1.0.2.tgz failed: cache mode is 'only-if-cached' but no cached response is available.
+313 verbose stack     at cacheFetch (C:\Users\sc\AppData\Roaming\nvm\v20.11.1\node_modules\npm\node_modules\make-fetch-happen\lib\cache\index.js:12:13)
+313 verbose stack     at async fetch (C:\Users\sc\AppData\Roaming\nvm\v20.11.1\node_modules\npm\node_modules\make-fetch-happen\lib\fetch.js:98:7)
+314 verbose cwd D:\GitHub\Shahid-Portfolio-webApplication
+315 verbose Windows_NT 10.0.19045
+316 verbose node v20.11.1
+317 verbose npm  v10.2.4
+318 error code ENOTCACHED
+319 error request to https://registry.npmjs.org/util-deprecate/-/util-deprecate-1.0.2.tgz failed: cache mode is 'only-if-cached' but no cached response is available.
+320 verbose exit 1
+321 timing npm Completed in 3038ms
+322 verbose unfinished npm timer reify 1792563971644
+323 verbose unfinished npm timer reify:unpack 1792563973700
+324 verbose unfinished npm timer reifyNode:node_modules/util-deprecate 1792563973700
+325 verbose unfinished npm timer reifyNode:node_modules/update-browserslist-db 1792563973700
+326 verbose unfinished npm timer reifyNode:node_modules/undici-types 1792563973700
+327 verbose unfinished npm timer reifyNode:node_modules/typescript 1792563973700
+328 verbose unfinished npm timer reifyNode:node_modules/tslib 1792563973700
+329 verbose unfinished npm timer reifyNode:node_modules/ts-interface-checker 1792563973700
+330 verbose unfinished npm timer reifyNode:node_modules/to-regex-range 1792563973700
+331 verbose unfinished npm timer reifyNode:node_modules/tinyglobby 1792563973701
+332 verbose unfinished npm timer reifyNode:node_modules/tinyglobby/node_modules/picomatch 1792563973701
+333 verbose unfinished npm timer reifyNode:node_modules/tinyglobby/node_modules/fdir 1792563973701
+334 verbose unfinished npm timer reifyNode:node_modules/thenify-all 1792563973701
+335 verbose unfinished npm timer reifyNode:node_modules/thenify 1792563973701
+336 verbose unfinished npm timer reifyNode:node_modules/tailwindcss 1792563973701
+337 verbose unfinished npm timer reifyNode:node_modules/supports-preserve-symlinks-flag 1792563973701
+338 verbose unfinished npm timer reifyNode:node_modules/sucrase 1792563973701
+339 verbose unfinished npm timer reifyNode:node_modules/styled-jsx 1792563973701
+340 verbose unfinished npm timer reifyNode:node_modules/streamsearch 1792563973701
+341 verbose unfinished npm timer reifyNode:node_modules/source-map-js 1792563973701
+342 verbose unfinished npm timer reifyNode:node_modules/scheduler 1792563973701
+343 verbose unfinished npm timer reifyNode:node_modules/run-parallel 1792563973701
+344 verbose unfinished npm timer reifyNode:node_modules/reusify 1792563973701
+345 verbose unfinished npm timer reifyNode:node_modules/resolve 1792563973701
+346 verbose unfinished npm timer reifyNode:node_modules/readdirp 1792563973701
+347 verbose unfinished npm timer reifyNode:node_modules/read-cache 1792563973701
+348 verbose unfinished npm timer reifyNode:node_modules/react-dom 1792563973701
+349 verbose unfinished npm timer reifyNode:node_modules/react 1792563973701
+350 verbose unfinished npm timer reifyNode:node_modules/queue-microtask 1792563973701
+351 verbose unfinished npm timer reifyNode:node_modules/postcss-value-parser 1792563973701
+352 verbose unfinished npm timer reifyNode:node_modules/postcss-selector-parser 1792563973701
+353 verbose unfinished npm timer reifyNode:node_modules/postcss-nested 1792563973701
+354 verbose unfinished npm timer reifyNode:node_modules/postcss-load-config 1792563973701
+355 verbose unfinished npm timer reifyNode:node_modules/postcss-js 1792563973701
+356 verbose unfinished npm timer reifyNode:node_modules/postcss-import 1792563973702
+357 verbose unfinished npm timer reifyNode:node_modules/postcss 1792563973702
+358 verbose unfinished npm timer reifyNode:node_modules/pirates 1792563973702
+359 verbose unfinished npm timer reifyNode:node_modules/picomatch 1792563973702
+360 verbose unfinished npm timer reifyNode:node_modules/picocolors 1792563973702
+361 verbose unfinished npm timer reifyNode:node_modules/path-parse 1792563973702
+362 verbose unfinished npm timer reifyNode:node_modules/object-hash 1792563973702
+363 verbose unfinished npm timer reifyNode:node_modules/object-assign 1792563973702
+364 verbose unfinished npm timer reifyNode:node_modules/normalize-path 1792563973702
+365 verbose unfinished npm timer reifyNode:node_modules/node-releases 1792563973702
+366 verbose unfinished npm timer reifyNode:node_modules/next 1792563973702
+367 verbose unfinished npm timer reifyNode:node_modules/next/node_modules/postcss 1792563973702
+368 verbose unfinished npm timer reifyNode:node_modules/nanoid 1792563973702
+369 verbose unfinished npm timer reifyNode:node_modules/mz 1792563973702
+370 verbose unfinished npm timer reifyNode:node_modules/micromatch 1792563973702
+371 verbose unfinished npm timer reifyNode:node_modules/merge2 1792563973702
+372 verbose unfinished npm timer reifyNode:node_modules/lines-and-columns 1792563973702
+373 verbose unfinished npm timer reifyNode:node_modules/lilconfig 1792563973702
+374 verbose unfinished npm timer reifyNode:node_modules/jiti 1792563973702
+375 verbose unfinished npm timer reifyNode:node_modules/is-number 1792563973702
+376 verbose unfinished npm timer reifyNode:node_modules/is-glob 1792563973702
+377 verbose unfinished npm timer reifyNode:node_modules/is-extglob 1792563973702
+378 verbose unfinished npm timer reifyNode:node_modules/is-core-module 1792563973702
+379 verbose unfinished npm timer reifyNode:node_modules/is-binary-path 1792563973702
+380 verbose unfinished npm timer reifyNode:node_modules/hasown 1792563973702
+381 verbose unfinished npm timer reifyNode:node_modules/glob-parent 1792563973702
+382 verbose unfinished npm timer reifyNode:node_modules/function-bind 1792563973702
+383 verbose unfinished npm timer reifyNode:node_modules/fraction.js 1792563973702
+384 verbose unfinished npm timer reifyNode:node_modules/fill-range 1792563973702
+385 verbose unfinished npm timer reifyNode:node_modules/fastq 1792563973702
+386 verbose unfinished npm timer reifyNode:node_modules/fast-glob 1792563973702
+387 verbose unfinished npm timer reifyNode:node_modules/fast-glob/node_modules/glob-parent 1792563973702
+388 verbose unfinished npm timer reifyNode:node_modules/escalade 1792563973703
+389 verbose unfinished npm timer reifyNode:node_modules/es-errors 1792563973703
+390 verbose unfinished npm timer reifyNode:node_modules/electron-to-chromium 1792563973703
+391 verbose unfinished npm timer reifyNode:node_modules/dlv 1792563973703
+392 verbose unfinished npm timer reifyNode:node_modules/didyoumean 1792563973703
+393 verbose unfinished npm timer reifyNode:node_modules/csstype 1792563973703
+394 verbose unfinished npm timer reifyNode:node_modules/cssesc 1792563973703
+395 verbose unfinished npm timer reifyNode:node_modules/commander 1792563973703
+396 verbose unfinished npm timer reifyNode:node_modules/client-only 1792563973703
+397 verbose unfinished npm timer reifyNode:node_modules/chokidar 1792563973703
+398 verbose unfinished npm timer reifyNode:node_modules/chokidar/node_modules/glob-parent 1792563973703
+399 verbose unfinished npm timer reifyNode:node_modules/caniuse-lite 1792563973703
+400 verbose unfinished npm timer reifyNode:node_modules/camelcase-css 1792563973703
+401 verbose unfinished npm timer reifyNode:node_modules/busboy 1792563973703
+402 verbose unfinished npm timer reifyNode:node_modules/browserslist 1792563973703
+403 verbose unfinished npm timer reifyNode:node_modules/braces 1792563973703
+404 verbose unfinished npm timer reifyNode:node_modules/binary-extensions 1792563973703
+405 verbose unfinished npm timer reifyNode:node_modules/baseline-browser-mapping 1792563973704
+406 verbose unfinished npm timer reifyNode:node_modules/autoprefixer 1792563973704
+407 verbose unfinished npm timer reifyNode:node_modules/arg 1792563973704
+408 verbose unfinished npm timer reifyNode:node_modules/anymatch 1792563973704
+409 verbose unfinished npm timer reifyNode:node_modules/any-promise 1792563973704
+410 verbose unfinished npm timer reifyNode:node_modules/@types/react-dom 1792563973704
+411 verbose unfinished npm timer reifyNode:node_modules/@types/react 1792563973704
+412 verbose unfinished npm timer reifyNode:node_modules/@types/node 1792563973704
+413 verbose unfinished npm timer reifyNode:node_modules/@swc/helpers 1792563973704
+414 verbose unfinished npm timer reifyNode:node_modules/@swc/counter 1792563973704
+415 verbose unfinished npm timer reifyNode:node_modules/@nodelib/fs.walk 1792563973704
+416 verbose unfinished npm timer reifyNode:node_modules/@nodelib/fs.stat 1792563973704
+417 verbose unfinished npm timer reifyNode:node_modules/@nodelib/fs.scandir 1792563973704
+418 verbose unfinished npm timer reifyNode:node_modules/@next/env 1792563973704
+419 verbose unfinished npm timer reifyNode:node_modules/@jridgewell/trace-mapping 1792563973704
+420 verbose unfinished npm timer reifyNode:node_modules/@jridgewell/sourcemap-codec 1792563973704
+421 verbose unfinished npm timer reifyNode:node_modules/@jridgewell/resolve-uri 1792563973704
+422 verbose unfinished npm timer reifyNode:node_modules/@jridgewell/gen-mapping 1792563973704
+423 verbose unfinished npm timer reifyNode:node_modules/@alloc/quick-lru 1792563973705
+424 verbose code 1
+425 error A complete log of this run can be found in: D:\GitHub\Shahid-Portfolio-webApplication\.npm-cache\_logs\2026-10-21T06_26_10_920Z-debug-0.log

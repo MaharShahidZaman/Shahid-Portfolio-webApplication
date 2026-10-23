@@ -3,19 +3,20 @@ import { MotionController } from "@/components/ui/MotionController";
 import { SectionTitle } from "@/components/ui/SectionTitle";
 import { Tags } from "@/components/ui/Tags";
 import { ContactForm } from "@/components/contact/ContactForm";
+import { education } from "@/data/education";
 import { experiences } from "@/data/experience";
 import { projects } from "@/data/projects";
 import { skillGroups } from "@/data/skills";
 
 const linkedin = "https://www.linkedin.com/in/zaman1913";
-const resume = "/resume/Shahid_Zaman_FullStackDeveloper.pdf";
-const whatsapp = "https://wa.me/923027434561";
+const github = "https://github.com/MaharShahidZaman";
 const email = "mahar.shahid.zaman1913@gmail.com";
-const phone = "+92 302 7434561";
+const whatsapp = "https://wa.me/923027434561";
 
 export default function Home() {
   const featured = projects.filter((project) => project.featured);
   const otherProjects = projects.filter((project) => !project.featured);
+
   return (
     <>
       <a className="skip-link" href="#main-content">
@@ -26,7 +27,9 @@ export default function Home() {
         <MotionController />
         <section id="home" className="hero container">
           <div className="hero-copy">
-            <p className="eyebrow" data-animate>FULL STACK DEVELOPER</p>
+            <p className="eyebrow" data-animate>
+              FULL STACK DEVELOPER
+            </p>
             <h1 data-animate className="reveal-delay-1">
               Hi, I&apos;m <span>Shahid Zaman</span>
             </h1>
@@ -43,26 +46,30 @@ export default function Home() {
             </p>
             <div className="actions reveal-delay-4" data-animate>
               <a className="button primary" href="#projects">
-                View My Work <span>↗</span>
-              </a>
-              <a className="button ghost" href={resume} download>
-                Download Resume
+                View My Work <span aria-hidden="true">↗</span>
               </a>
               <a className="text-link" href="#contact">
-                Contact Me <span>→</span>
+                Contact Me <span aria-hidden="true">→</span>
               </a>
             </div>
-            <div className="socials">
+            <div className="socials" aria-label="Social links">
               <a
                 href={linkedin}
                 target="_blank"
-                rel="noreferrer"
+                rel="noopener noreferrer"
                 aria-label="Visit Shahid Zaman's LinkedIn profile (opens in a new tab)"
               >
                 LinkedIn <span aria-hidden="true">↗</span>
               </a>
-              <span aria-hidden="true"></span>
-              <a href="#projects">Selected work</a>
+              <span aria-hidden="true" />
+              <a
+                href={github}
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Visit Shahid Zaman's GitHub profile (opens in a new tab)"
+              >
+                GitHub <span aria-hidden="true">↗</span>
+              </a>
             </div>
           </div>
           <div
@@ -71,21 +78,25 @@ export default function Home() {
             role="img"
             aria-label="Professional profile placeholder for Shahid Zaman"
           >
-            <div className="portrait-glow" aria-hidden="true"></div>
+            <div className="portrait-glow" aria-hidden="true" />
             <div className="portrait-card" aria-hidden="true">
               <div className="portrait-initials">SZ</div>
               <p>Shahid Zaman</p>
               <small>Full Stack Developer</small>
             </div>
-            <div className="orbit one" aria-hidden="true"></div>
-            <div className="orbit two" aria-hidden="true"></div>
+            <div className="orbit one" aria-hidden="true" />
+            <div className="orbit two" aria-hidden="true" />
             <div className="availability">
-              <i aria-hidden="true"></i> Available for opportunities
+              <i aria-hidden="true" /> Available for opportunities
             </div>
           </div>
         </section>
 
-        <section id="about" className="section container about-grid" data-animate>
+        <section
+          id="about"
+          className="section container about-grid"
+          data-animate
+        >
           <SectionTitle
             eyebrow="01 / ABOUT"
             title="A builder focused on useful, durable software."
@@ -119,8 +130,12 @@ export default function Home() {
             text="Delivering practical applications across communication, healthcare, and enterprise workflows."
           />
           {experiences.map((exp) => (
-            <article className="experience-card timeline-reveal" data-animate key={exp.company}>
-              <div className="timeline-dot"></div>
+            <article
+              className="experience-card timeline-reveal"
+              data-animate
+              key={exp.company}
+            >
+              <div className="timeline-dot" />
               <div className="experience-head">
                 <div>
                   <p className="card-label">CURRENT ROLE</p>
@@ -128,6 +143,7 @@ export default function Home() {
                   <p className="company">
                     {exp.company} <span>·</span> {exp.location}
                   </p>
+                  <p className="experience-date">{exp.duration}</p>
                 </div>
                 <p className="muted">{exp.summary}</p>
               </div>
@@ -180,11 +196,11 @@ export default function Home() {
                 </div>
                 <div className="feature-details">
                   <div>
-                    <h4>Role</h4>
+                    <h4>My role</h4>
                     <p>{project.role}</p>
                   </div>
                   <div>
-                    <h4>Highlights</h4>
+                    <h4>My contribution</h4>
                     <ul>
                       {project.features.map((feature) => (
                         <li key={feature}>{feature}</li>
@@ -198,7 +214,11 @@ export default function Home() {
           </div>
           <div className="project-list">
             {otherProjects.map((project) => (
-              <article className="project-row project-reveal" data-animate key={project.name}>
+              <article
+                className="project-row project-reveal"
+                data-animate
+                key={project.name}
+              >
                 <div>
                   <p className="card-label">{project.status}</p>
                   <h3>{project.name}</h3>
@@ -209,30 +229,48 @@ export default function Home() {
                   <Tags items={project.technologies} />
                 </div>
                 <div className="row-features">
-                  {project.features.map((f) => (
-                    <span key={f}>{f}</span>
+                  {project.features.map((feature) => (
+                    <span key={feature}>{feature}</span>
                   ))}
+                  {project.github && (
+                    <a
+                      className="project-github"
+                      href={project.github}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      aria-label={`View ${project.name} on GitHub (opens in a new tab)`}
+                    >
+                      View on GitHub <span aria-hidden="true">↗</span>
+                    </a>
+                  )}
                 </div>
               </article>
             ))}
           </div>
         </section>
 
-        <section id="education" className="section container education" data-animate>
+        <section
+          id="education"
+          className="section container education"
+          data-animate
+        >
           <SectionTitle eyebrow="05 / EDUCATION" title="Academic foundation" />
-          <div className="education-note">
-            <div className="note-icon">✦</div>
-            <div>
-              <h3>Education details</h3>
-              <p>
-                Education information will be added from the supplied resume to
-                keep this portfolio completely accurate.
-              </p>
-            </div>
+          <div className="education-grid">
+            {education.map((item) => (
+              <article className="education-card" key={item.qualification}>
+                <p className="card-label">{item.period}</p>
+                <h3>{item.qualification}</h3>
+                <p>{item.institution}</p>
+              </article>
+            ))}
           </div>
         </section>
 
-        <section id="contact" className="section container contact" data-animate>
+        <section
+          id="contact"
+          className="section container contact"
+          data-animate
+        >
           <p className="eyebrow">06 / CONTACT</p>
           <h2>
             Let&apos;s build something
@@ -247,14 +285,24 @@ export default function Home() {
               <span className="contact-detail-label">Email</span>
               <span>{email}</span>
             </a>
-            <a className="contact-detail" href={`tel:${phone.replace(/\s/g, "")}`}>
-              <span className="contact-detail-label">Phone</span>
-              <span>{phone}</span>
+            <a
+              className="contact-detail"
+              href={linkedin}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <span className="contact-detail-label">LinkedIn</span>
+              <span>Connect professionally ↗</span>
             </a>
-            <div className="contact-detail">
-              <span className="contact-detail-label">Location</span>
-              <span>Multan, Punjab, Pakistan</span>
-            </div>
+            <a
+              className="contact-detail"
+              href={github}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <span className="contact-detail-label">GitHub</span>
+              <span>Explore my code ↗</span>
+            </a>
           </div>
           <ContactForm />
           <div className="contact-actions">
@@ -262,44 +310,51 @@ export default function Home() {
               className="button primary"
               href={linkedin}
               target="_blank"
-              rel="noreferrer"
+              rel="noopener noreferrer"
             >
-              Connect on LinkedIn <span>↗</span>
+              Connect on LinkedIn <span aria-hidden="true">↗</span>
             </a>
             <a
               className="button whatsapp-button"
               href={whatsapp}
               target="_blank"
-              rel="noreferrer"
-              aria-label="Open WhatsApp chat with Shahid Zaman"
+              rel="noopener noreferrer"
+              aria-label="Open WhatsApp chat with Shahid Zaman (opens in a new tab)"
             >
-              <svg viewBox="0 0 32 32" aria-hidden="true">
-                <path d="M19.1 17.3c-.3-.2-1.9-.9-2.2-1s-.6-.2-.8.2c-.2.3-.9 1-.1 1.3.3.3.6.4.9.1.3-.4.5-.3.8-.2.3.2 1.4.6 1.7.7.3.2.5.2.6.3.2.2.2.9-.1 1.8-.3.9-1.7 1.7-2.4 1.8-.6.1-1.4.3-4.7-1.2-4-1.8-6.5-6.3-6.7-6.6-.2-.3-1.6-2.2-1.6-4.2s1-3 1.4-3.4c.3-.4.8-.5 1.1-.5h.8c.3 0 .6-.1.9.6.3.7 1 2.4 1.1 2.6.1.2.2.5 0 .8-.2.3-.3.5-.5.7l-.4.5c-.2.2-.3.4-.1.7.2.3.8 1.3 1.8 2.1 1.2 1.1 2.3 1.4 2.6 1.6.3.2.5.1.7-.1.2-.2.8-.9 1-1.2.2-.3.5-.3.8-.2z" />
-                <path d="M16 2.8a13.1 13.1 0 0 0-11.2 19.8L3.2 29l6.6-1.7A13.1 13.1 0 1 0 16 2.8zm0 23.9c-2 0-3.9-.5-5.6-1.5l-.4-.2-3.9 1 1-3.8-.3-.4A10.6 10.6 0 1 1 16 26.7z" />
-              </svg>
               WhatsApp <span aria-hidden="true">Open</span>
             </a>
-            <a className="button ghost" href={resume} download>
-              Download Resume
-            </a>
           </div>
-          <p className="contact-note">Available for roles, collaborations, and project inquiries.</p>
+          <p className="contact-note">
+            Available for roles, collaborations, and project inquiries.
+          </p>
         </section>
       </main>
       <footer>
         <div className="container">
-          <a className="brand" href="#home">
-            Shahid<span>.</span>
+          <a className="brand" href="#home" aria-label="Back to the top">
+            <span className="brand-mark" aria-hidden="true">
+              SZ
+            </span>
+            <span className="brand-name">Shahid Zaman</span>
           </a>
-          <p>© {new Date().getFullYear()} Shahid Zaman. Built with Next.js.</p>
-          <a
-            href={linkedin}
-            target="_blank"
-            rel="noreferrer"
-            aria-label="Visit Shahid Zaman's LinkedIn profile (opens in a new tab)"
-          >
-            LinkedIn <span aria-hidden="true">↗</span>
-          </a>
+          <div className="footer-links">
+            <a
+              href={linkedin}
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Visit Shahid Zaman's LinkedIn profile (opens in a new tab)"
+            >
+              LinkedIn ↗
+            </a>
+            <a
+              href={github}
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Visit Shahid Zaman's GitHub profile (opens in a new tab)"
+            >
+              GitHub ↗
+            </a>
+          </div>
         </div>
       </footer>
     </>
