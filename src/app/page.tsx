@@ -1,4 +1,5 @@
 import { Navbar } from "@/components/layout/Navbar";
+import Image from "next/image";
 import { MotionController } from "@/components/ui/MotionController";
 import { SectionTitle } from "@/components/ui/SectionTitle";
 import { Tags } from "@/components/ui/Tags";
@@ -34,15 +35,15 @@ export default function Home() {
               Hi, I&apos;m <span>Shahid Zaman</span>
             </h1>
             <p className="hero-role reveal-delay-2" data-animate>
-              Building thoughtful web experiences, end to end.
+              Building reliable healthcare and enterprise web applications.
             </p>
             <p className="stack-line reveal-delay-2" data-animate>
               React.js <b>•</b> Next.js <b>•</b> .NET Core <b>•</b> Node.js{" "}
               <b>•</b> SQL Server
             </p>
             <p className="hero-description reveal-delay-3" data-animate>
-              I build scalable, responsive, and real-time web applications using
-              modern frontend, backend, and database technologies.
+              I turn complex workflows into scalable, responsive, and real-time
+              products with modern frontend, backend, and database technologies.
             </p>
             <div className="actions reveal-delay-4" data-animate>
               <a className="button primary" href="#projects">
@@ -72,17 +73,20 @@ export default function Home() {
               </a>
             </div>
           </div>
-          <div
-            className="portrait-area reveal-scale"
-            data-animate
-            role="img"
-            aria-label="Professional profile placeholder for Shahid Zaman"
-          >
+          <div className="portrait-area reveal-scale" data-animate>
             <div className="portrait-glow" aria-hidden="true" />
-            <div className="portrait-card" aria-hidden="true">
-              <div className="portrait-initials">SZ</div>
-              <p>Shahid Zaman</p>
-              <small>Full Stack Developer</small>
+            <div className="portrait-card">
+              <Image
+                src="/images/shahid-zaman-portrait.png"
+                alt="Shahid Zaman, Full Stack Developer"
+                fill
+                priority
+                sizes="(max-width: 680px) 230px, 285px"
+              />
+              <div className="portrait-caption">
+                <p>Shahid Zaman</p>
+                <small>Full Stack Developer</small>
+              </div>
             </div>
             <div className="orbit one" aria-hidden="true" />
             <div className="orbit two" aria-hidden="true" />
